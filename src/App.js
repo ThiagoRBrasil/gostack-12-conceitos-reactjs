@@ -45,11 +45,6 @@ function App() {
             </button>
           </li>
         ))}
-
-        {/* <li>
-          Repositório 1
-          <button onClick={() => handleRemoveRepository(1)}>Remover</button>
-        </li> */}
       </ul>
 
       <button onClick={handleAddRepository}>Adicionar</button>
